@@ -1,37 +1,65 @@
-#Project Title: Global Water Scarcity Tracker
-#Description:
-The Global Water Scarcity Tracker is an interactive data dashboard designed to monitor, analyze, and visualize the state of water availability and scarcity across different regions of the world. This tool empowers users—policy makers, researchers, students, and the general public—to explore the global water crisis through real-time and historical data insights.
+# Water Scarcity Tracker using Meta's Prophet Forecasting Model and Streamlit :balloon:
 
-The dashboard presents key indicators such as water stress levels, renewable water resources per capita, population growth, climate impact, and usage by sectors (agriculture, industry, domestic). Through dynamic visualizations like heat maps, bar graphs, and time series charts, users can compare regions and identify trends or hotspots of severe water scarcity.
+## Purpose of the Project:
 
-This project aims to:
+Water scarcity is a pressing issue that significantly impacts various aspects of human life and environmental sustainability. Despite the Earth being covered by water across approximately 70% of its surface, a vast majority of this is ocean water, which is saline and not directly consumable or usable for many practical needs of human societies. Freshwater, the lifeblood of our planet and a prerequisite for human health and well-being, constitutes only a small fraction of the total water on Earth.
 
-Raise awareness about global water scarcity.
+Despite this, most people don't typically think about water scarcity as an environmental or global issue. We take for granted that water surrounds us and will always be accessible. As global populations burgeon and economic activity intensifies, the need for clean and safe water will accelerate and deplete an incredibly important but still finite resource.  
 
-Support data-driven decisions in water conservation and resource planning.
+The Global Water Scarcity Tracker aims to provide an interactive and visual representation of the current and predicted water scarcity across the globe. Water scarcity is becoming an increasing global concern due to various reasons like population growth, urbanization, and rising agricultural demands. This tool serves as a comprehensive platform to understand, visualize, predict and track the dynamics of freshwater availability across countries over time using Facebook's Prophet ML forecasting tool.
 
-Encourage sustainable water use practices by making information accessible and engaging.
+## Table of Contents
 
-#Key Features:
-Interactive world map with country-wise water scarcity levels.
+- [Features](#features)
+- [Privacy and Terms of Use](#privacy-and-terms-of-use)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
-Filters to compare water demand vs availability over time.
+## Features
 
-Sector-wise water usage visualization.
+**1. Dynamic Choropleth Map:**
 
-Climate influence on water resources.
+An interactive map powered by Folium, showcasing global freshwater availability. The map provides detailed pop-ups for each country, giving insights into various metrics.
 
-Downloadable reports and insights for decision-making.
+**2. Country-Specific Analysis:**
 
-#Tech Stack:
-Frontend: Streamlit / Dash / React (depending on your implementation)
+Users can select any country and visualize its freshwater resource metrics over time. This can provide deep insights into how freshwater availability has evolved for a particular nation.
 
-Backend: Python (Pandas, Plotly, etc.)
+**3. Comparative Visualization:**
 
-Data Sources: FAO AQUASTAT, UN Water, World Bank datasets
+Users have the option to select multiple countries and view a comparative analysis of their freshwater metrics. This feature helps in understanding relative differences and trends between nations.
 
-Deployment: Streamlit Cloud / GitHub Pages / Heroku
+**4. Predictive Insights:**
 
-#Impact:
-By simplifying access to complex water-related datasets, this tracker contributes toward SDG 6: Clean Water and Sanitation and fosters global water literacy.
+The application not only presents historical data but also offers predictive insights post-2020 up to 2049, helping users understand future trends and scenarios.
 
+**5. User Experience Enhancements:**
+
+The application employs a combination of visual aids, such as color-coded graphs, tooltips, and detailed legends, ensuring that the data interpretation is intuitive and user-friendly. 
+
+
+## Privacy and Terms of Use
+
+#### Data Sources and Usage:
+
+The Water Scarcity Tracker project utilizes data from various reputable sources to provide accurate and comprehensive insights into global water scarcity trends. Our commitment to data integrity and user privacy is paramount. While we combine these data sources using advanced forecasting techniques, including the Prophet model, specific details about the data processing methodologies are proprietary to our project.
+
+#### Changes to Our Privacy Policy:
+
+This privacy policy is subject to change without notice. We encourage users to frequently check this section for any changes to stay informed about how we are protecting the personal information we collect. Your continued use of the site and its services after any change in this privacy policy will constitute your acceptance of such change.
+
+## Contributing
+
+Feel free to open issues or provide pull requests to improve the app.
+
+## Contact
+
+#### Author: **Yaksh Birla**
+- 🔗 [LinkedIn](https://www.linkedin.com/in/yakshb/)
+- 📧 [Email](mailto:yb.codes@gmail.com)
+- ✍️ [Medium](https://medium.com/@yakshb)
+
+## Acknowledgements
+
+This project is a research preview intended for academic and non-commercial use only.
